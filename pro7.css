@@ -1,0 +1,36 @@
+body{
+   margin: 0;
+   display: flex;
+   justify-content: center;
+   height: 100vh;
+   align-items: center;
+   font-family: cursive;
+}
+.container{
+   width: 500px;
+  height: 200px;
+  background-color: slateblue;
+  border-radius: 10px;
+  box-shadow: 0 2px 8px rgb(34, 34, 34);
+  min-width: 400px;
+  padding: 85px 30px;
+  margin: 5px;
+  color: white;
+  position: relative;
+}
+h3{
+   font-weight: 100;
+   color: black;
+}
+
+img {
+  width: 100px;
+  height: 100px;
+  border-radius: 100px;
+  box-shadow: 0 2px 4px ;
+  position: absolute;
+  left: 50%;
+  transform: translateX(-50%);
+  top: -50px;
+
+}
